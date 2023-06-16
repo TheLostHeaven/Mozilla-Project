@@ -1,0 +1,33 @@
+{% block content %}
+<h1> Esta es la libreria de Mozilla </h1>
+{% if book%}
+    {%for book in book%}
+        <p>{{book.title}}</p>
+    {% endfor %}
+{% endif %}
+<h2> Autores </h2>
+{%if author%}
+    {%for author in author%}
+        <p>{{author.name}}</p>
+    {%endfor%}
+{%endif%}
+<h2> estado del libro </h2>
+{% if book_instance %}
+    {% for book_instance in book_instance %}
+        <p> {{book_instance.status}}</p>
+    {% endfor %}
+{% endif %}
+<h2> Lenguage </h2>
+{% if language %}
+    {% for language in language %}
+        <p> {{language.name}}</p>
+    {% endfor %}
+{% endif %}
+<h2> Genero </h2>
+{% if genre %}
+    {% for genre in genre %}
+        <p> {{genre.name}} </p>
+    {% endfor %}
+{% endif %}
+{% endblock content %}
+
