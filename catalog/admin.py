@@ -6,7 +6,7 @@ from .models.book import Book
 from .models.author import Author
 from .models.book_instance import BookInstance
 from .models.genre import Genre
-from .models.language import Language
+from .models.languaje import Language
 
 admin.site.register(Book)
 admin.site.register(Author)
