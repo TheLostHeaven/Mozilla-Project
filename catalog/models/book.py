@@ -1,7 +1,7 @@
 from django.db import models
 from .author import Author
 from .genre import Genre
-from .language import Language
+from .languaje import Language
 from django.urls import reverse
 
 class Book(models.Model):
