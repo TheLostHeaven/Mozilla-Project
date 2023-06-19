@@ -1,4 +1,4 @@
-# Mozilla-Project (Ejemplo de Li)
+# Mozilla-Project (Ejemplo de Libreria)
 
 ![Logo](https://static.djangoproject.com/img/logos/django-logo-negative.svg)
 
@@ -7,7 +7,7 @@
 
 ## Descripción
 
-Este proyecto es un ejemplo de una API RESTful desarrollada con Django que permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en un modelo de productos 
+Este proyecto es un ejemplo de una API RESTful desarrollada con Django que permite realizar operaciones CRUD (Crear, Leer, Actualizar, Eliminar) en un modelo de una libreria
 
 ## Funcionalidades
 
@@ -84,7 +84,7 @@ http://localhost:8000/admin
 
 ## Contacto
 
-Si tienes alguna pregunta o sugerencia o quieres el workbook para desarrollar este proyecto, no dudes en contactarme en [tiquedaniel2002@gmail.com](tiquedaniel2002@gmail.com).
+Si tienes alguna pregunta o sugerencia o quieres la documentacion para desarrollar este proyecto, no dudes en contactarme en [tiquedaniel2002@gmail.com](tiquedaniel2002@gmail.com).
 
 
 ## Autors
