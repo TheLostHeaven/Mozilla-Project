@@ -4,7 +4,7 @@ from .views import views
 from .views import author
 from .views import book_instance
 from .views import book
-from .views import language
+from .views import languaje
 from .views import genre
 
 urlpatterns = [
@@ -30,9 +30,9 @@ urlpatterns += [
 ]
 
 urlpatterns += [
-    path("language",language.LanguageListView.as_view(),name='language'),
-    path("language/<int:pk>",language.LanguageDetailtView.as_view(),name='language_detail'),
-    path("language/create",language.LanguageCreateView.as_view(),name= 'create_language')
+    path("language",languaje.LanguageListView.as_view(),name='language'),
+    path("language/<int:pk>",languaje.LanguageDetailtView.as_view(),name='language_detail'),
+    path("language/create",languaje.LanguageCreateView.as_view(),name= 'create_language')
 ]
 urlpatterns += [
     path("genre",genre.GenreListView.as_view(),name='genre'),
